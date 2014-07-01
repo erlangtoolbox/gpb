@@ -21,7 +21,7 @@
 
 -include_lib("kernel/include/file.hrl").
 -include_lib("eunit/include/eunit.hrl").
--include("../include/gpb.hrl").
+-include("gpb.hrl").
 
 -export([test_nifs/1]). %% set whether to test nifs or not
 

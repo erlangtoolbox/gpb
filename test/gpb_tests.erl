@@ -32,7 +32,7 @@
 -import(gpb, [decode_msg/3, encode_msg/2, merge_msgs/3, verify_msg/2]).
 
 -include_lib("eunit/include/eunit.hrl").
--include("../include/gpb.hrl").
+-include("gpb.hrl").
 -endif. %% gpb_compile_common_tests end of non-shared code ^^^^^^^^^^
 
 -ifndef(gpb_compile_common_tests). %% non-shared code below vvvvvvvvv
@@ -731,6 +731,6 @@ verify_path_when_failure_test() ->
 
 version_test() ->
     %% Check that none of version retrieval functions crash.
-    S = gpb:version_as_string(),
-    _ = gpb:version_as_list(),
+    gpb:version_as_string(),
+    gpb:version_as_list(),
     ok.

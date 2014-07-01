@@ -25,7 +25,7 @@
 -export([c/0, c/1]). % Command line interface, halts vm---don't use from shell!
 -include_lib("kernel/include/file.hrl").
 -include_lib("eunit/include/eunit.hrl").
--include("../include/gpb.hrl").
+-include("gpb.hrl").
 -include("gpb_codegen.hrl").
 
 -record(ft, {type, occurrence, is_packed}).

@@ -20,7 +20,7 @@
 -module(gpb_parse_tests).
 
 -include_lib("eunit/include/eunit.hrl").
--include("../include/gpb.hrl").
+-include("gpb.hrl").
 
 parses_simple_msg_test() ->
     {ok, [{{msg,'Msg'}, [#field{name=x, type=uint32, fnum=1,

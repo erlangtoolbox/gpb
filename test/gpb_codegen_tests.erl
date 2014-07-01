@@ -19,7 +19,7 @@
 
 -module(gpb_codegen_tests).
 
--include("../src/gpb_codegen.hrl").
+-include("gpb_codegen.hrl").
 -include_lib("eunit/include/eunit.hrl").
 
 %-compile(export_all).

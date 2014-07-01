@@ -23,7 +23,7 @@
 -export([encode_defs_to_descriptor/1, encode_defs_to_descriptor/2]).
 
 -include("gpb_descriptor.hrl").
--include("../include/gpb.hrl").
+-include("gpb.hrl").
 
 -define(ff(Fmt, Args), lists:flatten(io_lib:format(Fmt, Args))).
 

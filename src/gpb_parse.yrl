@@ -256,7 +256,7 @@ m_opts -> '$empty':                     [].
 Erlang code.
 
 -include_lib("eunit/include/eunit.hrl").
--include("../include/gpb.hrl").
+-include("gpb.hrl").
 
 -export([post_process/2]).
 -export([format_post_process_error/1]).
